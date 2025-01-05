@@ -1,22 +1,22 @@
 .banner {
     margin-top: -10vh;
-    height:73vh;
-    margin-bottom: 0vh;
+    height:80vh;
+    margin-bottom: -9vh;
     color: white;
     object-fit: contain;
 }
 .banner-contents {
     margin-left: 30px;
-    padding-top: 200px;
+    padding-top: 150px;
 }
 .banner-title {
-    font-size: 3rem;
+    font-size: 2.5rem;
     font-weight: 800;
     padding-bottom: 0.3rem;
 }
 .banner-description {
     width: 45rem;
-    font-size: 1rem;
+    font-size: 0.8rem;
     line-height: 1;
     padding: 1rem 0;
     max-width: 360px;
@@ -44,7 +44,7 @@
     transition: all0.2s;
 }
 .banner-fadeBottom {
-    height: 30vh;
+    height: 25vh;
     background-image: linear-gradient(
         180deg,
         transparent,
