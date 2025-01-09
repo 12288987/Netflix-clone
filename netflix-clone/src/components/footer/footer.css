@@ -5,7 +5,7 @@
     justify-content: center;
 }
 .footer-inner-container {
-    width: 60%;
+    width: 90%;
 }
 .footer-icons {
     width: 12%;
@@ -33,11 +33,21 @@
     align-items: center;
     justify-content: center;
     border: #fff 1px solid;
-    width: 15%;
-    margin: 10px 0;
+    width: 20%;
+    margin: 24px 0;
     cursor: pointer;
 }
 .copy-write {
     font-size: 12px;
     margin-bottom: 10px;
+}
+
+@media (min-width: 768px) {
+    .footer-inner-container {
+        width: 60%;
+    }
+    .service-code {
+        width: 15%;
+        margin: 10px 0;
+    }
 }

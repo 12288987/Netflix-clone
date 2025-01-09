@@ -27,12 +27,15 @@
     align-items: center;
     cursor: pointer;
 }
+.hide {
+    display: none;
+}
 /* .header-left ul li {
     margin: 0 10px;
 } */
 .header-right ul {
     list-style: none;
-    width: 150%;
+    width: 120%;
     display: flex;
     justify-content: space-around;
     cursor: pointer;
@@ -40,3 +43,12 @@
 /* .header-right ul li {
     margin: 0 5px;
 } */
+
+@media (min-width: 768px) {
+    .hide {
+        display: block;
+    }
+    .header-right ul {
+        width: 150%;
+    }
+}

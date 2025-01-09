@@ -11,9 +11,9 @@
     overflow-x: scroll;
     padding: 20px;
 }
-.row-posters::-webkit-scrollbar {
+/* .row-posters::-webkit-scrollbar {
     display: none;
-}
+} */
 .row-poster:hover {
     transform: scale(1.08);
 }
@@ -26,4 +26,10 @@
 .row {
     margin-left: 20px;
     color: white;
+}
+
+@media (min-width: 768px) {
+    .row-posters::-webkit-scrollbar {
+        display: none;
+    }
 }
